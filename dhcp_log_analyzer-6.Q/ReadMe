@@ -1,0 +1,28 @@
+#Muhammet Bozkurt
+
+#Gereksinimler
+
+Projenin çalışabilmesi için aşağıdaki yazılım ve kütüphanelere ihtiyaç vardır:
+
+Python 3.x
+pandas (Veri analizi için)
+logging (Log yönetimi için)
+
+
+
+Kullanım
+1. Log Dosyasını Ayrıştırma
+Aşağıdaki komut ile bir DHCP log dosyasını analiz edebilirsiniz:
+python dhcp_insight.py path_to_dhcp_log_file
+
+├── data_access/
+│   ├── ssh_connection.py
+│   └── file_writer.py
+├── business_logic/
+│   └── dhcp_parser.py
+├── presentation/
+│   └── main.py
+└── config.py
+
+
+
